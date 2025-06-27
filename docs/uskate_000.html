@@ -1,0 +1,87 @@
+<!-- -->
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>U-Skate World</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+  div.big {
+  font-style: italic;
+  font-size: 30px;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>U-Skate World</h1>
+  </div>
+
+  <!-- video section -->
+  <div align="center">
+
+    <!-- 'video for everyone' code snippet from https://camendesign.com/code/video_for_everybody -->
+    <video width="768" height="768" controls="">
+      <source src="assets/videos/uskate/uskate_anim_0.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+    <!-- <source src="__VIDEO__.OGV" type="video/ogg" /><!-- Firefox / Opera / Chrome10 --> -->
+    <!-- fallback to Flash: -->
+      <object width="768" height="768" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="assets//videos/uskate/uskate_anim_0.mp4"/>
+        <!-- fallback image. note the title field below, put the title of the video there -->
+  <!--      <img src="" width="512" height="512" alt="" title="No video playback capabilities, please download the video below" />-->
+      </object>
+    </video>
+
+    <br>
+    
+    <a href="assets/videos/uskate/uskate_anim_0.mp4">download (mp4)</a>
+  </div>
+
+<!--
+  <div class="container">
+      <ul class="unlist">
+        <h3><li></li></h3>
+      </ul>
+  </div>
+-->
+  <div align="center">
+    <br>
+    <a href="toc.html">previous instance</a>--
+    <a href="toc.html">previous group</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="">next instance</a>
+    <a href="">next group</a>
+  </div>
+    <br><br>
+  </body>
+</html>
